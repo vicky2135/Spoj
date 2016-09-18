@@ -35,7 +35,7 @@ int main() {
 					dp[i][w] = dp[i-1][w];
 				}
 			}
-			printf("%d ", a[i-1]);
+			//printf("%d ", a[i-1]);
 		//	printf("\n");
 		}
 		if(dp[n][W]) {
